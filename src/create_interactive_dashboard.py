@@ -1276,7 +1276,7 @@ def generate_dashboard():
 """.replace("%DATA_PAYLOAD%", json.dumps(presets_data))
 
     # Write HTML dashboard
-    html_path = os.path.join(docs_dir, "dashboard.html")
+    html_path = os.path.join(docs_dir, "index.html")
     with open(html_path, "w") as f:
         f.write(html_content)
         
